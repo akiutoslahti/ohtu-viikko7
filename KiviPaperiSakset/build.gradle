@@ -33,3 +33,9 @@ mainClassName = 'ohtu.kivipaperisakset.Paaohjelma'
 run {
     standardInput = System.in
 }
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'ohtu.kivipaperisakset.Paaohjelma'
+    }
+}
